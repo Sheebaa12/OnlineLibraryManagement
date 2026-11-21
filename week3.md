@@ -1,8 +1,6 @@
 # Online Library Management System – Week 3
 ## SQL Data Definition Language (DDL)
-
-### Week 3 – Creating and Managing Database Tables
-
+## Week 3 -- Implementing SQL Data Definition Commands
 ### 1. Introduction
 DDL commands help create database tables and manage their structure. Used these commands to set up the basic tables required for storing library-related information.
 
