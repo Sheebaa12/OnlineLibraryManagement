@@ -1,8 +1,8 @@
 # Online Library Management System – Week 4
 ## SQL Data Manipulation Language (DML)
 
-### Week 4 – Inserting, Updating and Retrieving Records
 
+### Week 4 -- Implementing SQL Data Manipulation Commands
 ### 1. Introduction
 DML commands are used to insert new records, modify existing data and remove records from database tables.Retrieving information using SELECT queries and managing transactions.
 
