@@ -4,7 +4,7 @@
 ### Week 3 – Creating and Managing Database Tables
 
 ### 1. Introduction
-DDL commands help create database tables and manage their structure. I used these commands to set up the basic tables required for storing library-related information.
+DDL commands help create database tables and manage their structure. Used these commands to set up the basic tables required for storing library-related information.
 
 ### 2. DDL Commands Covered
 
@@ -19,7 +19,7 @@ DDL commands help create database tables and manage their structure. I used thes
 
 ### 3. Creating Database Tables
 
-I created the following tables to organize the information in the library database.
+Created the following tables to organize the information in the library database.
 
 #### 3.1 Category Table
 
@@ -139,8 +139,6 @@ DESC BOOK_ISSUE;
 DESC BOOK_RETURN;
 ```
 
-**Observation:** The DESC command displays the structure of the selected table, helping verify whether the columns were created correctly.
-
 ### 5. Modifying Table Structure – ALTER
 
 I created a separate practice table and used ALTER TABLE to add a new column.
@@ -155,11 +153,9 @@ ALTER TABLE DDL_PRACTICE
 ADD REMARKS VARCHAR2(50);
 ```
 
-**Observation:** A new column named REMARKS was added to the existing table without recreating it.
-
 ### 6. Changing Table Name – RENAME
 
-I practised changing the name of an existing table and then restoring its original name.
+Changing the name of an existing table and then restoring its original name.
 
 ```sql
 RENAME DDL_PRACTICE TO DDL_PRACTICE_NEW;
@@ -167,24 +163,18 @@ RENAME DDL_PRACTICE TO DDL_PRACTICE_NEW;
 RENAME DDL_PRACTICE_NEW TO DDL_PRACTICE;
 ```
 
-**Observation:** The table name was successfully changed using the RENAME command.
-
 ### 7. Removing Table Records – TRUNCATE
 
-I used TRUNCATE to remove all records from the practice table while retaining its structure.
+Used TRUNCATE to remove all records from the practice table while retaining its structure.
 
 ```sql
 TRUNCATE TABLE DDL_PRACTICE;
 ```
 
-**Observation:** All rows were removed, but the table definition remained available.
-
 ### 8. Deleting a Table – DROP
 
-Finally, I used DROP TABLE to remove the practice table completely.
+Used DROP TABLE to remove the practice table completely.
 
 ```sql
 DROP TABLE DDL_PRACTICE;
 ```
-
-**Observation:** The table and its structure were removed from the database.
